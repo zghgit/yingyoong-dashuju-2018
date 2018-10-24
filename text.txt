@@ -1,7 +1,13 @@
 上交所-大数据组-应用项目-模拟数据
 echo "# yingyoong-dashuju-2018" >> README.md
+第一次：
 git init
-git add README.md
+git add text.txt
 git commit -m "first commit"
-git remote add origin https://github.com/zghgit/yingyoong-dashuju-2018.git
+git remote add origin https://yingyoong-dashuju-2018.git
+git push -u origin master
+
+ 之后新增文件：
+git add .
+git commit -m "备注"
 git push -u origin master
